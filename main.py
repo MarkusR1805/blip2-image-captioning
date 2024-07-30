@@ -12,6 +12,7 @@ import torch
 from transformers import Blip2Processor, Blip2ForConditionalGeneration
 from PIL import Image
 import language_tool_python
+from utils import *
 
 # NLTK-Ressourcen herunterladen
 nltk.download('punkt')
@@ -76,18 +77,19 @@ def clear_screen():
 clear_screen()
 
 # Überprüfen, ob MPS oder CUDA verfügbar ist
-device = torch.device("mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu")
+device = get_device()
 print(f"{'MPS' if device.type == 'mps' else 'CUDA' if device.type == 'cuda' else 'CPU'} wird verwendet\n")
 
 # Programm-Informationen anzeigen
-print("\033[91mWelcome to the Python Image-Captioning Program for Mac with MPS\033[0m")
-print("\033[94mSalesforce/blip2-opt-67b-coco ≈ 7.753.329.664 billion parameters\033[0m")
-print("\033[91mProgramming: Markus Rößler\n\033[0m")
-print("\033[93mMR-XOTOX-NASSE-WÄNDE-SDXL\033[0m")
-print("\033[93mnow in version 2.0 at CivitAI\033[0m")
-print("\033[93mhttps://civitai.com/models/448483/mr-xotox-nasse-waende-sdxl\n\033[0m")
-print("June / 2024 Version 1.1 MPS")
-print("\033[91mwww.der-zerfleischer.de\033[0m")
+# Hauptprogramm, das auf die externe Datei zugreift
+def main():
+    print_welcome()
+    print_stats()
+    print_credits()
+    print_footer()
+
+if __name__ == "__main__":
+    main()
 
 # Eingabeaufforderung für den Pfad zum Verzeichnis mit den Bildern
 standard_image_dir = "/Users/markusrossler/Desktop/Lora/Python"
