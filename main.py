@@ -135,8 +135,8 @@ additional_words = [word.strip().lower() for word in additional_words.split(',')
 gesamt_zeit = time.time()
 
 # Modellpfad
-#model_path = "/Volumes/SSD T7/Salesforce-blip2-opt-67b-coco"
-model_path = "Salesforce/blip2-opt-6.7b"
+#model_path = "/Volumes/SSD T7/Salesforce-blip2-opt-67b-coco" # Local path
+model_path = "Salesforce/blip2-opt-6.7b" # Huggingface path
 processor = Blip2Processor.from_pretrained(model_path)
 model = Blip2ForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch.float16).to(device)
 
