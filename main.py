@@ -138,7 +138,7 @@ gesamt_zeit = time.time()
 
 # Modellpfad
 #model_path = "/Volumes/SSD T7/Salesforce-blip2-opt-67b-coco" # Local path
-model_path = "Salesforce/blip2-opt-6.7b" # Huggingface path
+model_path = "Salesforce/blip2-opt-2.7b" # Huggingface path
 processor = Blip2Processor.from_pretrained(model_path)
 model = Blip2ForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch.float16).to(device)
 
@@ -152,7 +152,7 @@ for filename in os.listdir(image_dir):
 print("Alle vorhandenen Textdateien wurden gelöscht!")
 
 # Initialisiere LanguageTool für Englisch
-tool = language_tool_python.LanguageTool('en-US')
+tool = language_tool_python.LanguageTool('en-GB')
 
 # Bildverarbeitung starten
 start_zeit = time.time()
@@ -165,15 +165,15 @@ for filename in os.listdir(image_dir):
 
             # Generiere Bildbeschreibung
             out = model.generate(**inputs,
-                                 do_sample=True,
-                                 temperature=1.0,
-                                 #length_penalty=1.4,
-                                 top_k=30,
-                                 top_p=0.85,
-                                 no_repeat_ngram_size=2,
-                                 num_beams=7,
-                                 min_length=20,
-                                 max_length=80)
+                                do_sample=True,
+                                temperature=1.4,
+                                length_penalty=1.4,
+                                top_k=50,
+                                top_p=0.85,
+                                no_repeat_ngram_size=2,
+                                num_beams=10,
+                                min_length=20,
+                                max_length=80)
 
             caption = processor.decode(out[0], skip_special_tokens=True).strip()
             caption = ' '.join(caption.split())
