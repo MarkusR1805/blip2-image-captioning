@@ -26,7 +26,6 @@ english_words_set = set(words.words())
 def is_valid_word(word, allowed_words):
     return re.match('^[a-zA-Z]+$', word) and (word.lower() in english_words_set or word.lower() in allowed_words)
 
-
 # Textdateien sortieren und doppelte Einträge löschen
 def remove_duplicates_and_sort(file_path):
     with open(file_path, 'r') as file:
@@ -137,8 +136,8 @@ additional_words = [word.strip().lower() for word in additional_words.split(',')
 gesamt_zeit = time.time()
 
 # Modellpfad
-#model_path = "/Volumes/SSD T7/Salesforce-blip2-opt-67b-coco" # Local path
-model_path = "Salesforce/blip2-opt-2.7b" # Huggingface path
+model_path = "/Volumes/SSD T7/Salesforce-blip2-opt-67b-coco" # Local path
+#model_path = "Salesforce/blip2-opt-2.7b" # Huggingface path
 processor = Blip2Processor.from_pretrained(model_path)
 model = Blip2ForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch.float16).to(device)
 
