@@ -3,3 +3,4 @@ main-copy.py
 allowed_words-copy.txt
 ignore_liste-copy.txt
 keywords.txt
+.DS_Store
