@@ -138,13 +138,10 @@ additional_words = input("Geben Sie 2-3 zusätzliche Wörter ein (durch Kommas g
 additional_words = [word.strip().lower() for word in additional_words.split(',') if word.strip()]
 
 gesamt_zeit = time.time()
+
 #ANCHOR - Modelpfad
 # Modellpfad
-<<<<<<< HEAD
 model_path = "/Volumes/SSD T7/Salesforce-blip2-opt-27b" # Local path
-=======
-model_path = "/Volumes/SSD T7/Salesforce-blip2-opt-67b-coco" # Local path
->>>>>>> e3e6c115b3db349804a4ab852bb8bcf037aa6dce
 #model_path = "Salesforce/blip2-opt-2.7b" # Huggingface path
 processor = Blip2Processor.from_pretrained(model_path)
 model = Blip2ForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch.float16).to(device)
@@ -159,7 +156,7 @@ for filename in os.listdir(image_dir):
 print("Alle vorhandenen Textdateien wurden gelöscht!")
 #ANCHOR - Sprache
 # Initialisiere LanguageTool für Englisch
-tool = language_tool_python.LanguageTool('en-GB')
+tool = language_tool_python.LanguageTool('en-GB') # or 'en-US'
 
 # Bildverarbeitung starten
 start_zeit = time.time()

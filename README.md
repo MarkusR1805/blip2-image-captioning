@@ -1,1 +1,1 @@
-# Blip2 Picture-Captioning
+# Blip-Image-Captioning
