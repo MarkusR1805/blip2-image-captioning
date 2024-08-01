@@ -27,10 +27,7 @@ english_words_set = set(words.words())
 def is_valid_word(word, allowed_words):
     return re.match('^[a-zA-Z]+$', word) and (word.lower() in english_words_set or word.lower() in allowed_words)
 
-<<<<<<< HEAD
 #ANCHOR - txt-Files sortieren
-=======
->>>>>>> e3e6c115b3db349804a4ab852bb8bcf037aa6dce
 # Textdateien sortieren und doppelte Einträge löschen
 def remove_duplicates_and_sort(file_path):
     with open(file_path, 'r') as file:
