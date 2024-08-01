@@ -14,6 +14,7 @@ from PIL import Image
 import language_tool_python
 from utils import *
 
+#ANCHOR - NLTK-Download
 # NLTK-Ressourcen herunterladen
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
@@ -26,6 +27,7 @@ english_words_set = set(words.words())
 def is_valid_word(word, allowed_words):
     return re.match('^[a-zA-Z]+$', word) and (word.lower() in english_words_set or word.lower() in allowed_words)
 
+#ANCHOR - txt-Files sortieren
 # Textdateien sortieren und doppelte Einträge löschen
 def remove_duplicates_and_sort(file_path):
     with open(file_path, 'r') as file:
@@ -75,10 +77,12 @@ def clear_screen():
 # Bildschirm leeren
 clear_screen()
 
+#ANCHOR - MPS,Cuda,CPU
 # Überprüfen, ob MPS oder CUDA verfügbar ist
 device = get_device()
 print(f"{'MPS' if device.type == 'mps' else 'CUDA' if device.type == 'cuda' else 'CPU'} wird verwendet\n")
 
+#ANCHOR - Infos
 # Programm-Informationen anzeigen
 # Hauptprogramm, das auf die externe Datei zugreift
 def main():
@@ -134,9 +138,9 @@ additional_words = input("Geben Sie 2-3 zusätzliche Wörter ein (durch Kommas g
 additional_words = [word.strip().lower() for word in additional_words.split(',') if word.strip()]
 
 gesamt_zeit = time.time()
-
+#ANCHOR - Modelpfad
 # Modellpfad
-model_path = "/Volumes/SSD T7/Salesforce-blip2-opt-67b-coco" # Local path
+model_path = "/Volumes/SSD T7/Salesforce-blip2-opt-27b" # Local path
 #model_path = "Salesforce/blip2-opt-2.7b" # Huggingface path
 processor = Blip2Processor.from_pretrained(model_path)
 model = Blip2ForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch.float16).to(device)
@@ -149,7 +153,7 @@ for filename in os.listdir(image_dir):
         print(f"Gelöscht: {file_path}")
 
 print("Alle vorhandenen Textdateien wurden gelöscht!")
-
+#ANCHOR - Sprache
 # Initialisiere LanguageTool für Englisch
 tool = language_tool_python.LanguageTool('en-GB')
 
@@ -164,15 +168,15 @@ for filename in os.listdir(image_dir):
 
             # Generiere Bildbeschreibung
             out = model.generate(**inputs,
-                                do_sample=True,
-                                temperature=1.4,
-                                length_penalty=1.4,
-                                top_k=50,
-                                top_p=0.85,
-                                no_repeat_ngram_size=2,
-                                num_beams=10,
-                                min_length=20,
-                                max_length=80)
+                                 do_sample=True,
+                                 temperature=1.4,
+                                 length_penalty=1.4,
+                                 top_k=30,
+                                 top_p=0.85,
+                                 no_repeat_ngram_size=2,
+                                 num_beams=10,
+                                 min_length=20,
+                                 max_length=80)
 
             caption = processor.decode(out[0], skip_special_tokens=True).strip()
             caption = ' '.join(caption.split())
