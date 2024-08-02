@@ -1,5 +1,5 @@
-### Blip2-Image-Captioning for Mac (M1, M2, M3) Cuda (Windows/Linux), or CPU
-<h1>For Mac (M1, M2, M3) Cuda (Windows/Linux), or CPU</h1>
+# Blip2-Image-Captioning
+<h2>For Mac (M1, M2, M3) Cuda (Windows/Linux), or CPU</h2>
 <div align="center">
   <p>
     <a href="#supported-formats">Supported Formats</a> •
