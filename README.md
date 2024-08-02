@@ -8,7 +8,7 @@
   </p>
 </div>
 
-![Picture1](https://creative-ai.der-zerfleischer.de/images/auto/quer//2024-05-17-122441_530400024634200_barock.jpeg)
+![Picture1](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/165788c5-17cf-4fa1-a6f3-b900a3a4e1ab/width=1440,quality=90/2024-05-21-201140_0_NIK.jpeg)
 
 ## Supported Formats
 JPG, JPEG, PNG, BMP, GIF
