@@ -33,6 +33,7 @@ pip install -r requirements.txt
 ```
 
 ## Used Model
-Salesforce [blip2-opt-2.7b](https://huggingface.co/Salesforce/blip2-opt-2.7b) with ≈ 3.744.679.936 params
+
+### Salesforce [blip2-opt-2.7b](https://huggingface.co/Salesforce/blip2-opt-2.7b) with ≈ 3.744.679.936 params
 Approximately 15 GB in size. Either you use the programme as it is set, or you load the model locally on your computer and have to change the path to "main.py".
 ## Usage
