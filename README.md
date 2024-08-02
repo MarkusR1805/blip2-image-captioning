@@ -31,7 +31,7 @@ pip install --upgrade pip
 ```
 pip install -r requirements.txt
 ```
-
+![Picture1](https://creative-ai.der-zerfleischer.de/images/creativ/quer//2024-05-17-103401_109585519072628_barock.jpeg)
 ## Use Model
 
 ### Salesforce [blip2-opt-2.7b](https://huggingface.co/Salesforce/blip2-opt-2.7b) with ≈ 3.744.679.936 params
