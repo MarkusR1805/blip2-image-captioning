@@ -66,6 +66,14 @@ model_path = "Salesforce/blip2-opt-2.7b" # Huggingface path<p>
 
 ## Usage
 <h2>Attention! All text files in the directory will be deleted without being asked! All files with the suffix .txt!!!</h2>
+
+You must be in the programme directory in the terminal, then start the programme with "python main.py"
+
 ### This application is used via the terminal, here I show it using the example of a MacBook M3
+
+First question: The path to the directory in which the images are located
+Second question: The path to ignore_list.txt (leave empty if no explicit file exists) Default is the programme path
+Third question: The path to allowed_list.txt (leave empty if no explicit file exists) Default is the programme path
+Fourth question: Additional keywords 2-3 or more at the very beginning of the image description (enter separated by a comma)
 
 ![Picture3](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe8c5bfd-7887-4267-a344-a18189a41680/width=920,quality=90/2024-06-06-143307_305791123400292.jpeg)
