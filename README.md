@@ -1,4 +1,6 @@
-<div align="center"># Blip2-Image-Captioning</div>
+<div align="center">
+# Blip2-Image-Captioning
+</div>
 <div><h2>For Mac (M1, M2, M3) Cuda (Windows/Linux), or CPU</h2> </div>
 <div align="center">
   <p>
