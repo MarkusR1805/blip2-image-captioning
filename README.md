@@ -76,4 +76,12 @@ Second question: The path to ignore_list.txt (leave empty if no explicit file ex
 Third question: The path to allowed_list.txt (leave empty if no explicit file exists) Default is the programme path
 Fourth question: Additional keywords 2-3 or more at the very beginning of the image description (enter separated by a comma)
 
+The programme creates text files with the same name as the image, example image1.png = image1.txt
+First, only image descriptions are created for all images, then keywords are filtered from the image description and placed in front of the image description in addition to the keywords you entered at the beginning.
+The following files are also created:
+1. gesamt.txt / All image descriptions in one file, ideal for use as a wildcard
+2. extracted_words.txt / all keywords of all images can be found here
+3. t_extracted_words.txt / as in 2 but with the tokens added
+4. a CSV table with image description and image path
+
 ![Picture3](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe8c5bfd-7887-4267-a344-a18189a41680/width=920,quality=90/2024-06-06-143307_305791123400292.jpeg)
