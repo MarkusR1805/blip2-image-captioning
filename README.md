@@ -20,10 +20,10 @@
 
 ## Installation
 <div>
-    <h2>Create a virtual Python environment in the same directory!</h2>
-        ```
-        python -m venv env
-        ```
+<h2>Create a virtual Python environment in the same directory!</h2>
+```
+python -m venv env
+```
 </div>
 ## Used Model
 Salesforce [blip2-opt-2.7b](https://huggingface.co/Salesforce/blip2-opt-2.7b) with ≈ 3.744.679.936 params
