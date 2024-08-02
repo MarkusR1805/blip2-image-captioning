@@ -19,7 +19,8 @@ JPG, JPEG, PNG, BMP, GIF
 ### Create a virtual Python environment in the same directory!
 Open the terminal in the directory, e.g. /Users/markusrossler/own-programs/Blip2-Image-Captioning
 ```
-python -m venv env
+python3.12 -m venv env
+python env/bin/activate
 ```
 ## Used Model
 Salesforce [blip2-opt-2.7b](https://huggingface.co/Salesforce/blip2-opt-2.7b) with ≈ 3.744.679.936 params
