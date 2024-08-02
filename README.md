@@ -35,14 +35,34 @@ pip install --upgrade pip
 ```
 pip install -r requirements.txt
 ```
+```
+pip install huggingface-hub
+pip install language-tool-python
+pip install language_data
+pip install nltk
+pip install pillow
+pip install psutil
+pip install sentencepiece
+pip install tokenizers
+pip install torch
+pip install torchaudio
+pip install torchsde
+pip install torchvision
+pip install transformers
+```
 ![Picture2](https://creative-ai.der-zerfleischer.de/images/creativ/quer//2024-05-17-103401_109585519072628_barock.jpeg)
 ## Use Model
+Start the programm in terminal with
+```
+python main.py
+```
 
 ### Salesforce [blip2-opt-2.7b](https://huggingface.co/Salesforce/blip2-opt-2.7b) with ≈ 3.744.679.936 params
 Approximately 15 GB in size. Either you use the programme as it is set (from Huggingface), or you load the model locally on your computer and have to change the path to "main.py".
 You must then adapt these lines of code!<p>
-model_path = "/Volumes/SSD T7/Salesforce-blip2-opt-27b" # Local path<p>
-#model_path = "Salesforce/blip2-opt-2.7b" # Huggingface path<p>
+#model_path = "/Volumes/SSD T7/Salesforce-blip2-opt-27b" # Local path<p>
+or
+model_path = "Salesforce/blip2-opt-2.7b" # Huggingface path<p>
 
 ## Usage
 
