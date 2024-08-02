@@ -17,7 +17,7 @@ JPG, JPEG, PNG, BMP, GIF
 ## Installation
 
 ### Create a virtual Python environment in the same directory!
-Open the terminal in the directory, e.g. /Users/markusrossler/own-programs/Blip2-Image-Captioning
+Open the terminal in the directory, e.g. /path/captioning/Blip2-Image-Captioning
 ```
 python3.12 -m venv env
 ```
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ## Used Model
 
 ### Salesforce [blip2-opt-2.7b](https://huggingface.co/Salesforce/blip2-opt-2.7b) with ≈ 3.744.679.936 params
-Approximately 15 GB in size. Either you use the programme as it is set, or you load the model locally on your computer and have to change the path to "main.py".
+Approximately 15 GB in size. Either you use the programme as it is set (from Huggingface), or you load the model locally on your computer and have to change the path to "main.py".
 
 ## Usage
 
