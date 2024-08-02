@@ -35,6 +35,7 @@ pip install --upgrade pip
 ```
 pip install -r requirements.txt
 ```
+or
 ```
 pip install huggingface-hub
 pip install language-tool-python
@@ -85,3 +86,5 @@ The following files are also created:
 4. a CSV table with image description and image path
 
 ![Picture3](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe8c5bfd-7887-4267-a344-a18189a41680/width=920,quality=90/2024-06-06-143307_305791123400292.jpeg)
+
+# You can adapt and change the python code and also change the parameters of the model. Just experiment with the changes, you can also use the larger Blip2 model but it has 33GB and takes longer to process the images.
