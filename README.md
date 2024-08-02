@@ -1,5 +1,5 @@
-<div align="center"><h1><font color="red"># Blip2-Image-Captioning</font></h1>
-<h2>For Mac (M1, M2, M3) Cuda (Windows/Linux), or CPU</h2> </div>
+<div align="center"><h1><font color="red">Blip2-Image-Captioning</font></h1></div>
+<div><h2>For Mac (M1, M2, M3) Cuda (Windows/Linux), or CPU</h2> </div>
 <div align="center">
   <p>
     <a href="#supported-formats">Supported Formats</a> •
