@@ -12,15 +12,12 @@
 ![Picture1](https://creative-ai.der-zerfleischer.de/images/auto/quer//2024-05-17-122441_530400024634200_barock.jpeg)
 
 ## Supported Formats
-<div>
-    <h2>
-        JPG, JPEG, PNG, BMP, GIF
-    </h2>
-</div>
+JPG, JPEG, PNG, BMP, GIF
 
 ## Installation
 
 ### Create a virtual Python environment in the same directory!
+Open the terminal in the directory, e.g. /Users/markusrossler/own-programs/Blip2-Image-Captioning
 ```
 python -m venv env
 ```
