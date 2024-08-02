@@ -42,3 +42,4 @@ model_path = "/Volumes/SSD T7/Salesforce-blip2-opt-27b" # Local path<p>
 ## Usage
 
 ### This application is used via the terminal, here I show it using the example of a MacBook M3
+![Picture1](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe8c5bfd-7887-4267-a344-a18189a41680/width=920,quality=90/2024-06-06-143307_305791123400292.jpeg)
