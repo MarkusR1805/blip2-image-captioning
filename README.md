@@ -10,8 +10,8 @@
 
 ![Picture1](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/165788c5-17cf-4fa1-a6f3-b900a3a4e1ab/width=1440,quality=90/2024-05-21-201140_0_NIK.jpeg)
 <p>
-<div align="center">[MR-XOTOX-NASSE-WAENDE-SDXL](https://civitai.com/models/448483?modelVersionId=499427)</div>
-
+<div align="center">MR-XOTOX-NASSE-WAENDE-SDXL (https://civitai.com/models/448483?modelVersionId=499427)</div>
+</p>
 <div>
 <p>
 ## Supported Formats
