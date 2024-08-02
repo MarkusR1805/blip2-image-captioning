@@ -7,7 +7,8 @@
     <a href="#usage">Usage</a>
   </p>
 </div>
-<div align="center">![Picture1](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/165788c5-17cf-4fa1-a6f3-b900a3a4e1ab/width=1440,quality=90/2024-05-21-201140_0_NIK.jpeg)</div>
+
+![Picture1](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/165788c5-17cf-4fa1-a6f3-b900a3a4e1ab/width=1440,quality=90/2024-05-21-201140_0_NIK.jpeg)
 
 <div align="center">[MR-XOTOX-NASSE-WAENDE-SDXL](https://civitai.com/models/448483?modelVersionId=499427)</div>
 ## Supported Formats
@@ -30,7 +31,7 @@ pip install --upgrade pip
 ```
 pip install -r requirements.txt
 ```
-![Picture1](https://creative-ai.der-zerfleischer.de/images/creativ/quer//2024-05-17-103401_109585519072628_barock.jpeg)
+![Picture2](https://creative-ai.der-zerfleischer.de/images/creativ/quer//2024-05-17-103401_109585519072628_barock.jpeg)
 ## Use Model
 
 ### Salesforce [blip2-opt-2.7b](https://huggingface.co/Salesforce/blip2-opt-2.7b) with ≈ 3.744.679.936 params
@@ -42,4 +43,4 @@ model_path = "/Volumes/SSD T7/Salesforce-blip2-opt-27b" # Local path<p>
 ## Usage
 
 ### This application is used via the terminal, here I show it using the example of a MacBook M3
-![Picture1](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe8c5bfd-7887-4267-a344-a18189a41680/width=920,quality=90/2024-06-06-143307_305791123400292.jpeg)
+![Picture3](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe8c5bfd-7887-4267-a344-a18189a41680/width=920,quality=90/2024-06-06-143307_305791123400292.jpeg)
