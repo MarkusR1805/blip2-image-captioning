@@ -5,7 +5,7 @@
     <a href="#supported-formats">Supported Formats</a> •
     <a href="#installation">Installation</a> •
     <a href="#used model">Used Model</a> •
-    <a href="#usage">Usage</a> •
+    <a href="#usage">Usage</a>
   </p>
 </div>
 
