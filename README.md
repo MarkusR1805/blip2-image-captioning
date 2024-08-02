@@ -88,4 +88,4 @@ The following files are also created:
 ![Picture3](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe8c5bfd-7887-4267-a344-a18189a41680/width=920,quality=90/2024-06-06-143307_305791123400292.jpeg)
 
 ## You can adapt and change the python code and also change the parameters of the model. Just experiment with the changes, you can also use the larger Blip2 model but it has 33GB and takes longer to process the images.
-## [Salesforce](Salesforce/blip2-opt-6.7b) or little better [Salesforce-Coco](Salesforce/blip2-opt-6.7b-coco)
+## [Salesforce/blip2-opt-6.7b](https://huggingface.co/Salesforce/blip2-opt-6.7b) or little better [Salesforce/blip2-opt-6.7b-coco](https://huggingface.co/Salesforce/blip2-opt-6.7b-coco)
