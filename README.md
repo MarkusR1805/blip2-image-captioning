@@ -13,7 +13,7 @@
 <div align="center">[MR-XOTOX-NASSE-WAENDE-SDXL](https://civitai.com/models/448483?modelVersionId=499427)</div>
 ## Supported Formats
 JPG, JPEG, PNG, BMP, GIF
-
+<p>
 ## Installation
 
 ### Create a virtual Python environment in the same directory!
