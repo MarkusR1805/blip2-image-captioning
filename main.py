@@ -292,26 +292,6 @@ with open(os.path.join(text_dir, 't_extracted_words.txt'), 'w', encoding='utf-8'
 
 print("Tokenizer-Werte wurden in 't_extracted_words.txt' gespeichert.")
 
-""" # Textdateien sortieren und doppelte Einträge löschen
-def remove_duplicates_and_sort(file_path):
-    with open(file_path, 'r') as file:
-        lines = file.readlines()
-
-    # Eindeutige Zeilen speichern
-    unique_lines = set(line.strip().lower() for line in lines if line.strip())
-
-    # Sortierte Liste erstellen
-    new_lines = sorted(unique_lines)
-
-    # Schreibe die eindeutigen und sortierten Zeilen zurück in die Datei
-    with open(file_path, 'w') as file:
-        file.writelines(f"{line}\n" for line in new_lines)
-
-# Sortieren und doppelte Einträge löschen für allowed_words.txt
-remove_duplicates_and_sort(allowed_words_file_path)
-# Sortieren und doppelte Einträge löschen für ignore_list.txt
-remove_duplicates_and_sort(ignore_list_path) """
-
 # Beispielaufruf für die Dateien
 remove_duplicates_and_sort(os.path.join(text_dir, 't_extracted_words.txt'))
 remove_duplicates_and_sort(os.path.join(text_dir, 'extracted_words.txt'))
