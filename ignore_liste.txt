@@ -86,3 +86,4 @@ stock photo - фото со всеми други
 �
 something
 jumper
+image
