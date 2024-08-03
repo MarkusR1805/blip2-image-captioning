@@ -12,18 +12,26 @@ away
 background
 bangs
 beholder
+blond
 blurry
 bodysuit
+bokeh
 bun
+bushes
 california
 close
 close-up
+corals
+cracks
+crows
 decor
 der
+earlobes
 edge
 fernando
 ferritin
 ferroviaire
+fingers
 fishnet
 forefinger
 fotóblico
@@ -42,11 +50,14 @@ http
 ideas
 image
 img
+jewellery
 julie
 jumper
+knees
 la
 le
 left-hand
+lighted
 lopez
 los
 mac
@@ -56,13 +67,16 @@ mckinney/flickr
 means
 microsoft
 n't
+nets
 nintendo
 photo
 picture
 pixabay.com/en/stock-photo/sea-anemones-with-coral-and-other-marine-life-in-the-background-1/
 pulled
 recoil
+reflections
 shit
+shoulders
 sits
 something
 stands
@@ -74,6 +88,7 @@ stock photo
 stock photo - фото со всеми други
 stockings
 t-shirt
+tassels
 there
 thrones'her
 thumb
@@ -81,6 +96,7 @@ top
 u.s.a.
 united
 up
+wings
 word
 words
 words'der
@@ -107,3 +123,5 @@ you
 фото со всеми изображе
 ’
 �
+dressed
+lot

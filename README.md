@@ -21,6 +21,10 @@ JPG, JPEG, PNG, BMP, GIF
 ## Installation
 
 ### Create a virtual Python environment in the same directory!
+Clone the reposity
+```
+git clone https://github.com/MarkusR1805/blip2-image-captioning.git
+```
 Open the terminal in the directory, e.g. /path/captioning/Blip2-Image-Captioning
 ```
 python3.12 -m venv env
