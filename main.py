@@ -142,7 +142,7 @@ gesamt_zeit = time.time()
 #ANCHOR - Modelpfad
 # Modellpfad
 model_path = "/Volumes/SSD T7/Salesforce-blip2-opt-27b" # Local path
-#model_path = "Salesforce/blip2-opt-2.7b" # Huggingface path
+#model_path = "Salesforce/blip2-flan-t5-xl" # Huggingface path
 processor = Blip2Processor.from_pretrained(model_path)
 model = Blip2ForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch.float16).to(device)
 
@@ -175,7 +175,7 @@ for filename in os.listdir(image_dir):
                                  top_k=50,
                                  top_p=0.85,
                                  no_repeat_ngram_size=2,
-                                 num_beams=5,
+                                 num_beams=10,
                                  min_length=20,
                                  max_length=50)
 
