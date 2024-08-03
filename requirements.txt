@@ -1,6 +1,6 @@
-language-tool-python==2.8
-nltk==3.8.1
-pillow==10.4.0
-psutil==6.0.0
-torch==2.5.0.dev20240711
-transformers==4.43.2
+language-tool-python
+nltk
+pillow
+psutil
+torch
+transformers
