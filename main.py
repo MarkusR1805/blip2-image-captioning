@@ -172,10 +172,10 @@ for filename in os.listdir(image_dir):
                                  do_sample=True,
                                  temperature=1.2,
                                  length_penalty=1.2,
-                                 top_k=30,
+                                 top_k=50,
                                  top_p=0.85,
                                  no_repeat_ngram_size=2,
-                                 num_beams=10,
+                                 num_beams=5,
                                  min_length=20,
                                  max_length=50)
 
