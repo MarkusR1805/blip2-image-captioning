@@ -46,6 +46,10 @@ pip install transformers
 ```
 ![Picture2](https://creative-ai.der-zerfleischer.de/images/creativ/quer//2024-05-17-103401_109585519072628_barock.jpeg)
 ## Use Model
+Update the programme regularly
+```
+git pull
+```
 Start the programm in terminal with
 ```
 python main.py
