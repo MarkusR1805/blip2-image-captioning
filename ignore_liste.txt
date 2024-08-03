@@ -1,21 +1,37 @@
+- фото
+- фото со всеми други
+/
 //creativecommons.org/licenses/by-nc-sa/2.0/deed.en_us
+14079087
 [
 ]
 america
 android
 angeles
+away
 background
 bangs
+beholder
+blurry
+bodysuit
+bun
 california
 close
 close-up
 decor
 der
+edge
 fernando
 ferritin
 ferroviaire
+fishnet
+forefinger
+fotóblico
+fotóbók
 francisco
+front
 ground
+headscarf
 held
 her
 highlights
@@ -24,14 +40,18 @@ hips
 his
 http
 ideas
+image
 img
 julie
+jumper
+la
 le
 left-hand
 lopez
 los
 mac
 macos
+make
 mckinney/flickr
 means
 microsoft
@@ -41,41 +61,43 @@ photo
 picture
 pixabay.com/en/stock-photo/sea-anemones-with-coral-and-other-marine-life-in-the-background-1/
 pulled
+recoil
 shit
 sits
+something
 stands
 states
 steps
-stockings
-t-shirt
-there
-thrones'her
-top
-u.s.a.
-up
-words'der
-words'her
-xbox
-you
-’
-- фото
-- фото со всеми други
-/
-14079087
-fotóblico
-fotóbók
 stock fotó
 stock fotóbók - 5
 stock photo
 stock photo - фото со всеми други
+stockings
+t-shirt
+there
+thrones'her
+thumb
+top
+u.s.a.
+united
+up
+word
+words
+words'der
+words'her
+xbox
+you
 всег
 всеми
 всеми други
 всеми изображе
 други
 изображе
+на
 образования
 общественно�
+продукта
+скорость
 со
 со всеми други
 фото
@@ -83,19 +105,5 @@ stock photo - фото со всеми други
 фото со
 фото со всеми други
 фото со всеми изображе
+’
 �
-something
-jumper
-image
-front
-united
-thumb
-la
-forefinger
-blurry
-words
-word
-edge
-bun
-beholder
-recoil

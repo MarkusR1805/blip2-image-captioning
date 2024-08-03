@@ -156,7 +156,7 @@ for filename in os.listdir(image_dir):
 print("Alle vorhandenen Textdateien wurden gelöscht!")
 #ANCHOR - Sprache
 # Initialisiere LanguageTool für Englisch
-tool = language_tool_python.LanguageTool('en-GB') # or 'en-US'
+tool = language_tool_python.LanguageTool('en-GB') # or 'en-GB'
 
 # Bildverarbeitung starten
 start_zeit = time.time()
