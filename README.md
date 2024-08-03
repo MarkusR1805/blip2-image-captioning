@@ -37,18 +37,11 @@ pip install -r requirements.txt
 ```
 or
 ```
-pip install huggingface-hub
 pip install language-tool-python
-pip install language_data
 pip install nltk
 pip install pillow
 pip install psutil
-pip install sentencepiece
-pip install tokenizers
 pip install torch
-pip install torchaudio
-pip install torchsde
-pip install torchvision
 pip install transformers
 ```
 ![Picture2](https://creative-ai.der-zerfleischer.de/images/creativ/quer//2024-05-17-103401_109585519072628_barock.jpeg)
