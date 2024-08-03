@@ -26,7 +26,7 @@ Open the terminal in the directory, e.g. /path/captioning/Blip2-Image-Captioning
 python3.12 -m venv env
 ```
 ```
-python env/bin/activate
+source env/bin/activate
 ```
 ### Install requirements.txt
 ```
