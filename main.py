@@ -170,14 +170,14 @@ for filename in os.listdir(image_dir):
             # Generiere Bildbeschreibung
             out = model.generate(**inputs,
                                  do_sample=True,
-                                 temperature=1.4,
-                                 length_penalty=1.4,
+                                 temperature=1.2,
+                                 length_penalty=1.2,
                                  top_k=30,
                                  top_p=0.85,
                                  no_repeat_ngram_size=2,
                                  num_beams=10,
                                  min_length=20,
-                                 max_length=80)
+                                 max_length=50)
 
             caption = processor.decode(out[0], skip_special_tokens=True).strip()
             caption = ' '.join(caption.split())
