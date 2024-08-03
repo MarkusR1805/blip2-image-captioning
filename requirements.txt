@@ -1,14 +1,6 @@
-huggingface-hub==0.24.0
 language-tool-python==2.8
-language_data==1.2.0
-mysql-connector-python==9.0.0
 nltk==3.8.1
 pillow==10.4.0
 psutil==6.0.0
-sentencepiece==0.2.0
-tokenizers==0.19.1
 torch==2.5.0.dev20240711
-torchaudio==2.4.0.dev20240711
-torchsde==0.2.6
-torchvision==0.20.0.dev20240711
 transformers==4.43.2
